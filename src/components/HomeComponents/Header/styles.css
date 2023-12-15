@@ -1,0 +1,7 @@
+
+header {
+    background-color: var(--dsc-color-bg-header);
+    height: 70px;
+    display: flex;
+    align-items: center;
+}

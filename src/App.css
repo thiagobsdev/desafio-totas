@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+#root {
+  --dsc-color-bg-header: #2d28ff;
+  --dsc-color-header-font: #ffffff;
+
+  --dsc-color-bg-body: #c7c7c7;
+  --dsc-color-body-font: #000000;
+  font-family: Inter;
+}
+
+.des-container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 960px;
+}
+
+.bg-products {
+
+  height: 60px;
+  max-width: 960px;
+  width: 100%;
+  background-color: var(--dsc-color-bg-body);
+
+}
+
+.active {
+  font-weight: 700;
+}
+
+.pending {
+  font-weight: 400;
+}
+
+
+

@@ -1,0 +1,16 @@
+.flex-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-flex * {
+  color: var(--dsc-color-header-font);
+}
+
+.nav-bar * {
+  padding-right: 20px;
+  text-decoration: none;
+}
+
