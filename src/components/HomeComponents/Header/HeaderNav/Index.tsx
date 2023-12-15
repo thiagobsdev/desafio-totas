@@ -16,7 +16,7 @@ export default function HeaderNav() {
           >
             Início
           </NavLink>
-          <NavLink to="/products/computers"  className={({isActive, isPending}) =>
+          <NavLink to="/products/"  className={({isActive, isPending}) =>
               isActive ? "active" : isPending ? "pending" : ""
             }
            >
